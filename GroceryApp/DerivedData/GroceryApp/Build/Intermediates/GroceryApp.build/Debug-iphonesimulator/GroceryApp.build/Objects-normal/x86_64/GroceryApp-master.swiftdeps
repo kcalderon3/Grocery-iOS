@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "abfe35966e7cce6b5e58b8bca2218117"
+build_time: [553148851, 228249000]
+inputs:
+  "/Users/kharismacalderon/Desktop/Grocery-iOS/GroceryApp/GroceryApp/SecondViewController.swift": [553148848, 0]
+  "/Users/kharismacalderon/Desktop/Grocery-iOS/GroceryApp/GroceryApp/AppDelegate.swift": [553148848, 0]
+  "/Users/kharismacalderon/Desktop/Grocery-iOS/GroceryApp/GroceryApp/FirstViewController.swift": [553148848, 0]
