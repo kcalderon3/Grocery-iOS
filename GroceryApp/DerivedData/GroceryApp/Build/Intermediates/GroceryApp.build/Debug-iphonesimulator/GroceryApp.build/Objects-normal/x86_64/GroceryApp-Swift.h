@@ -147,6 +147,15 @@ SWIFT_CLASS("_TtC10GroceryApp19FirstViewController")
 @end
 
 
+SWIFT_CLASS("_TtC10GroceryApp28ForgotPasswordViewController")
+@interface ForgotPasswordViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC10GroceryApp20SecondViewController")
 @interface SecondViewController : UIViewController
 - (void)viewDidLoad;

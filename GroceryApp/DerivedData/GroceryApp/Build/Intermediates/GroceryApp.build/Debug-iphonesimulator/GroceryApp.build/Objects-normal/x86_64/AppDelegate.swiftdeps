@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C10GroceryApp11AppDelegate", ""]
 provides-dynamic-lookup:
-- "application"
-- "applicationWillEnterForeground"
 - "window"
-- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
+- "application"
+- "applicationDidEnterBackground"
 - "applicationWillResignActive"
 - "applicationWillTerminate"
-- "applicationDidEnterBackground"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "UIResponder"
-- "Bool"
-- !private "BooleanLiteralType"
 - "UIApplication"
 - "UIApplicationDelegate"
+- "Bool"
 - "UIWindow"
 - "AppDelegate"
 - "UIApplicationLaunchOptionsKey"
+- "UIResponder"
+- !private "BooleanLiteralType"
 depends-member:
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]

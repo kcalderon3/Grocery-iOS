@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E30291C41F2576D5004C2F33 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30291C31F2576D5004C2F33 /* ForgotPasswordViewController.swift */; };
 		E3589DDB1F15DCB000FD9920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3589DDA1F15DCB000FD9920 /* AppDelegate.swift */; };
 		E3589DDD1F15DCB000FD9920 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3589DDC1F15DCB000FD9920 /* FirstViewController.swift */; };
 		E3589DDF1F15DCB000FD9920 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3589DDE1F15DCB000FD9920 /* SecondViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E30291C31F2576D5004C2F33 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		E3589DD71F15DCAF00FD9920 /* GroceryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3589DDA1F15DCB000FD9920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3589DDC1F15DCB000FD9920 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				E3589DDA1F15DCB000FD9920 /* AppDelegate.swift */,
 				E3589DDC1F15DCB000FD9920 /* FirstViewController.swift */,
 				E3589DDE1F15DCB000FD9920 /* SecondViewController.swift */,
+				E30291C31F2576D5004C2F33 /* ForgotPasswordViewController.swift */,
 				E3589DE01F15DCB000FD9920 /* Main.storyboard */,
 				E3589DE31F15DCB000FD9920 /* Assets.xcassets */,
 				E3589DE51F15DCB000FD9920 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3589DDF1F15DCB000FD9920 /* SecondViewController.swift in Sources */,
+				E30291C41F2576D5004C2F33 /* ForgotPasswordViewController.swift in Sources */,
 				E3589DDB1F15DCB000FD9920 /* AppDelegate.swift in Sources */,
 				E3589DDD1F15DCB000FD9920 /* FirstViewController.swift in Sources */,
 			);
@@ -509,6 +513,7 @@
 				E3589E031F15DCB000FD9920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3589E041F15DCB000FD9920 /* Build configuration list for PBXNativeTarget "GroceryAppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				E3589E061F15DCB000FD9920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3589E071F15DCB000FD9920 /* Build configuration list for PBXNativeTarget "GroceryAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				E3589E091F15DCB000FD9920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
